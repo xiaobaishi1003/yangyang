@@ -29,7 +29,7 @@
 				%>
 	    	<option value=<%=list.get(i).getGradeid() %>><%=list.get(i).getXueqiming()%></option>
 	    <%} %>
-	    </select>&#8195;&#8195;&#8195;&#8195;
+	    </select>
 	    <select name="kemu_id">
 	    <%
 				List<Kemu> list1 = (List<Kemu>) request.getAttribute("kemu");
