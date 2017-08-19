@@ -6,6 +6,7 @@ public class Chengjixiugai {
 	private int chengji;
 	private int beisong;
 	private int xiehua;
+	private int xiehua1;
 	public int getBeisong() {
 		return beisong;
 	}
