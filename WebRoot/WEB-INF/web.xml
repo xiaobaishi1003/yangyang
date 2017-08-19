@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<welcome-file-list>
+		<welcome-file>Login.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.LoginServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ZonghechengjiServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.ZonghechengjiServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZonghechengjiServlet</servlet-name>
+		<url-pattern>/ZonghechengjiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ChengjiluruServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.ChengjiluruServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChengjiluruServlet</servlet-name>
+		<url-pattern>/ChengjiluruServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>TitleServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.TitleServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TitleServlet</servlet-name>
+		<url-pattern>/TitleServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ChengjixiugaiServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.ChengjixiugaiServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChengjixiugaiServlet</servlet-name>
+		<url-pattern>/ChengjixiugaiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>NianjizengjiaServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.NianjizengjiaServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NianjizengjiaServlet</servlet-name>
+		<url-pattern>/NianjizengjiaServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>XiugaiServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.XiugaiServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XiugaiServlet</servlet-name>
+		<url-pattern>/XiugaiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddKemuServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.AddKemuServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddKemuServlet</servlet-name>
+		<url-pattern>/AddKemuServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DeleteNianjiServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.DeleteNianjiServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteNianjiServlet</servlet-name>
+		<url-pattern>/DeleteNianjiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DeleteKemuServlet</servlet-name>  <!-- 类名 -->
+		<servlet-class>want.DeleteKemuServlet</servlet-class> <!-- 所在的包 -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteKemuServlet</servlet-name>
+		<url-pattern>/DeleteKemuServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ExportServlet</servlet-name>
+		<servlet-class>want.ExportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExportServlet</servlet-name>
+		<url-pattern>/ExportServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DanyuanceshiServlet</servlet-name>
+		<servlet-class>want.DanyuanceshiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DanyuanceshiServlet</servlet-name>
+		<url-pattern>/DanyuanceshiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Chengjiluru2Servlet</servlet-name>
+		<servlet-class>want.Chengjiluru2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Chengjiluru2Servlet</servlet-name>
+		<url-pattern>/Chengjiluru2Servlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Title2Servlet</servlet-name>
+		<servlet-class>want.Title2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Title2Servlet</servlet-name>
+		<url-pattern>/Title2Servlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Xiugai2Servlet</servlet-name>
+		<servlet-class>want.Xiugai2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Xiugai2Servlet</servlet-name>
+		<url-pattern>/Xiugai2Servlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>FanhuiServlet</servlet-name>
+		<servlet-class>want.FanhuiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FanhuiServlet</servlet-name>
+		<url-pattern>/FanhuiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Chengjixiugai2Servlet</servlet-name>
+		<servlet-class>want.Chengjixiugai2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Chengjixiugai2Servlet</servlet-name>
+		<url-pattern>/Chengjixiugai2Servlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>KemuQueryServlet</servlet-name>
+		<servlet-class>want.KemuQueryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KemuQueryServlet</servlet-name>
+		<url-pattern>/KemuQueryServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>KemuchengjiServlet</servlet-name>
+		<servlet-class>want.KemuchengjiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KemuchengjiServlet</servlet-name>
+		<url-pattern>/KemuchengjiServlet</url-pattern><!-- 访问的网址 -->
+	</servlet-mapping>
+
+</web-app>
